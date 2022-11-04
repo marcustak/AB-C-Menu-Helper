@@ -3,16 +3,28 @@
 <head>
   <title>룰 설명</title>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="colors.js"></script>
 </head>
 <body>
+
+    <input id = "night_day" type="button" value="night" onclick="
+    nightDayHandler(this);
+    ">
+
     <h1><a href="index.html">AB-C Menu Helper</a></h1>
+    <div id="grid">
   <ol>
     <li><a href="food A or B.html">A or B</a></li>
     <li><a href="food A.html">▲위</a></li>
     <li><a href="food B.html">▼아래</a></li>
     <li><a href="food C.html">C</a></li>
   </Ol>
+  <div id="article">
  <p>바로 지금.<br>당신이 너무나도 먹고 싶은 음식 2가지를 고른 후 본인 머리에 각각 A와 B로 설정해라.<br> 당신의 선택은 A 인가 B 인가?</br>결정했다면 위와 아래중 하나를 눌러 결과를 확인해라!</P>
+ </div>
+</div>
    <p>
    <br><br><br><br><br><br><br><br>
    <div id="disqus_thread"></div>
